@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>О нас</title>
+</head>
+
+<head th:insert="blocks/head :: head"></head>
+
+<body class="d-flex flex-column min-vh-100">
+
+<div th:insert="blocks/nav :: nav"></div>
+
+<main class="page catalog-page">
+    <section class="clean-block clean-catalog">
+        <div class="container">
+            <div class="block-heading">
+                <h2 class="text-dark">О нас</h2>
+            </div>
+
+            <p class="fs-5 text-break" align="justify">
+                Национальная библиотека Беларуси, возглавляя систему библиотек страны, является хранительницей мощного
+                информационного ресурса. Формируя его, она оперативно реагирует на требования времени, обеспечивая
+                удовлетворение универсальных информационных запросов пользователей в интересах развития отечественной
+                науки, экономики, производства, культурной и духовной сферы.
+            </p>
+            <p class="fs-5 text-break" align="justify">
+                Приоритетная задача Национальной библиотеки – создание условий для формирования интеллектуального
+                потенциала нации. Одной из главных миссий библиотеки является собирание и предоставление в пользование
+                обществу фонда документов, отражающих знания человечества и сохранение культурных ценностей для
+                потомков.
+            </p>
+            <p class="fs-5 text-break" align="justify">
+                Сегодня Национальная библиотека Беларуси – это крупнейший информационный и социокультурный центр страны.
+                Библиотека активно генерирует собственные и приобретает электронные информационные ресурсы крупнейших
+                мировых производителей, предоставляет свободный доступ к национальным и мировым информационным ресурсам,
+                располагает самым полным в республике фондом национальных и зарубежных документов. В фондах находится
+                самая репрезентативная в республике коллекция материалов ООН, ЮНЕСКО, Всемирного банка, МАГАТЭ.
+                Национальная библиотека получает и хранит документы Европейского союза, Совета Европы, ОБСЕ и других
+                международных организаций.
+            </p>
+
+            <iframe allowfullscreen frameborder="0" loading="lazy"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCGz6HJDVY9fht_jGVCprEpRCwZ8PSsqhc&amp;q=Minsk&amp;zoom=11"
+                    width="100%" height="400"
+                    style="box-shadow: 0px 0px 6px;border-radius: 5px;border: 1px solid rgb(255,255,255);width: 100%;margin-top: 15px;height: 500px;"></iframe>
+        </div>
+    </section>
+</main>
+
+<div th:insert="blocks/footer :: footer" class="mt-auto"></div>
+
+<script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
